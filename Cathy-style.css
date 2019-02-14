@@ -1,0 +1,42 @@
+/* Zixuan Cathy Zhu 11/29/2018 */
+			@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+		body { 
+				color: black;
+				background-color: white;
+				margin-left: 20%;
+				margin-right: 20%;
+				border-top-style:  dotted;
+				border-right-style: solid;
+				border-left-style: solid;
+				border-bottom-style: dotted;
+				border-color: 000000;
+				padding: 50px;
+				font-family: "Comic Sans MS"}
+		ul {
+				list-style-type: none;
+				margin: 20;
+				padding: 20;
+				background-color: #333 }
+		li {    display: inline;
+				text-align: center;
+				padding: 40px 40px;
+				text-decoration: none;}
+		h1 { 
+			font-family:'Cedarville Cursive',cursive; }
+		a:link {
+				color:white;
+				text-decoration: underline; }
+		a:visited {
+				color:#848484;
+				text-decoration: line-through; }
+		a:hover {
+				color:red;
+				text-decoration: line-through;
+				background-color: none; }
+		a:active {
+				color:#ffcc00;
+				text-decoration: underline; }
+		#p3 { 
+				clear=left;}
+		#img1{
+				float=left;}
