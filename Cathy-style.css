@@ -5,18 +5,15 @@
 				background-color: white;
 				margin-left: 20%;
 				margin-right: 20%;
-				border-top-style:  dotted;
-				border-right-style: solid;
-				border-left-style: solid;
-				border-bottom-style: dotted;
-				border-color: 000000;
 				padding: 50px;
 				font-family: "Comic Sans MS"}
-		ul {
+		ul {	
+				width:100%;
 				list-style-type: none;
-				margin: 20;
+				margin: 10;
 				padding: 20;
-				background-color: #333 }
+				background-color: #333
+				 }
 		li {    display: inline;
 				text-align: center;
 				padding: 40px 40px;
@@ -40,3 +37,11 @@
 				clear=left;}
 		#img1{
 				float=left;}
+	  	table { 
+	  			width:100%;}
+		table,th,td {
+				border:2px solid black ;
+				border-collapse: collapse;}
+		th,td {
+				padding: 10px;
+				text-align: center; }				
