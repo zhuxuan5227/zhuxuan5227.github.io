@@ -1,0 +1,61 @@
+/* CSS Syntax:
+filter:
+		none
+		blur()
+		brightness()
+		contrast()
+		drop-shadow()
+		grayscale()
+		hue-rotate()
+		invert()
+		opacity()
+		saturate()
+		sepia()
+		url() */
+img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	width:30%;
+	padding:20px;}
+img.filter1 {
+	filter:none;
+	-webkit-filter:none;}
+img.filter2 {
+	filter:saturate(50%);
+	-webkit-filter:saturate(50%); }
+/* Animation */
+img.animation1 {
+				animation: myfirst1 5s alternate infinite;
+				-webkit-animation:myfirst1 5s alternate infinite;
+				width:40%; }
+
+img.animation2 {
+				animation: myfirst2 4s alternate infinite;
+				-webkit-animation: myfirst2 4s alternate infinite;
+				}
+
+@keyframes myfirst1
+{
+	from {filter:invert(0%);}
+	to {filter:invert(100%);}
+}
+
+@-webskit-keyframes myfirst1
+{
+	from {filter:invert(0%);}
+	to {filter:invert(100%);}
+}
+
+@keyframes myfirst2
+{
+	from {width:100px;}
+	to {width:202px;}
+}
+
+@-webskit-keyframes myfirst2
+{
+	from {width:100px;}
+	to {width:202;}
+}
